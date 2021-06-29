@@ -58,7 +58,6 @@ class Review(models.Model):
 
 
 class Comment(models.Model):
-    # title = models.ForeignKey(Titles, on_delete=models.CASCADE)
     review = models.ForeignKey(Review, on_delete=models.CASCADE, related_name='comments')
     text = models.CharField(max_length=2000)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='comments')
