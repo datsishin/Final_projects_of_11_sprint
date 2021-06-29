@@ -1,0 +1,6 @@
+id,password,username,email,role,description,first_name,last_name,is_active,is_admin,is_staff,is_superuser
+100,1234,bingobongo,bingobongo@yamdb.fake,user,,,,1,0,0,0
+101,1234,capt_obvious,capt_obvious@yamdb.fake,admin,,,,1,0,0,0
+102,1234,faust,faust@yamdb.fake,user,,,,1,0,0,0
+103,1234,reviewer,reviewer@yamdb.fake,user,,,,1,0,0,0
+104,1234,angry,angry@yamdb.fake,moderator,,,,1,0,0,0
